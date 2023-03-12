@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.area-login {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    min-width: 40vh;
+    min-height: 45vh;
+    padding: 35px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 15px rgba(0, 0, 0, .5);
+}
+
+.login img {
+    width: 180px;
+    height: auto;
+    padding-bottom: 20px;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login input {
+    margin-top: 10px;
+    border-width: 1px;
+    border-color: #dcdcdc;
+    border-radius: 4px;
+    height: 30px;
+    outline: none;
+    padding-left: 10px;
+    color: #363636;
+}
+
+a {
+    padding-left: 5px;
+    text-decoration: none;
+    color: #4169E1;
+    transition: 0.5s ease;
+}
+
+a:active {
+    opacity: 0.7;
+}
+
+form [type="submit"] {
+    background: linear-gradient(90deg, #0162c8, #55e7fc);
+    border: none;
+    color: azure;
+    font-size: 15px;
+    height: 35px;
+    transition: all 0.5s ease;
+}
+
+form [type="submit"]:hover {
+    letter-spacing: 0.5px;
+    cursor: pointer;
+}
+
+form [type="submit"]:active {
+    opacity: 0.7;
+}
